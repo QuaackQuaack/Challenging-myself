@@ -1,0 +1,25 @@
+There is CIA triad to maintain, i.e Confidentiality, Authentication and Integrity.
+
+Public Key Infrastructure. 
+	It is a system that uses digital certification to secure online communicaiton and verify identities. 
+
+1) Certificate Authority
+	It is a trusted entity that issues digital certificates 
+2) Validy period
+	When one is assiging certificate to the users, one must choose a validity period. 
+
+Virtual Private Network (VPN)
+	Case like WFM and everyother things expose our system directly to the Internet which can create security issues. 
+When Connecting tot corportate services, remote endpints should encrypt data in transit so if anything along the way is compromised, the intercepted data is unrecoverable. This provides confidentiality. 
+
+Types of VPN
+
+Remote Access VPN 
+	It securely connects users to internal resources
+	It provide common pooint for users to authenticate and access data as if they were on local network.  
+
+Site to Site 
+	Tunnel configured between two devices in order to transparently connect remtoe locations securely over the internet as if they were directly connected while encrypting data to provide confidentiality.
+
+	It provide common pooint for users to authenticate and access data as if they were on local network 
+

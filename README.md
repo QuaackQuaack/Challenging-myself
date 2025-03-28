@@ -7,4 +7,5 @@
 
 
 **Day 2**
-- *Note Time 12:20AM Technically, it should be the third day commit but I missed the commit. Today I learned about the making of server template and keeping the record of the hardward, Application, Disk. Now I will start studying about VPN*
+
+- * Note Time 12:20AM Technically, it should be the third day commit but I missed the commit. Today I learned about the making of server template and keeping the record of the hardward, Application, Disk. Now I will start studying about VPN*
