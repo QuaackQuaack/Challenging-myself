@@ -1,7 +1,7 @@
 There is CIA triad to maintain, i.e Confidentiality, Authentication and Integrity.
 
 Public Key Infrastructure. 
-	It is a system that uses digital certification to secure online communicaiton and verify identities. 
+	It is a system that uses digital certification to secure online communication and verify identities. 
 
 1) Certificate Authority
 	It is a trusted entity that issues digital certificates 
@@ -23,3 +23,14 @@ Site to Site
 
 	It provide common pooint for users to authenticate and access data as if they were on local network 
 
+Types of VPN Topologies: 
+	Hub & Spoke, Partial Mesh, Full Mesh 
+
+Hairpining
+
+	When using VPNs, it is posible that traffic may enter an interface and need to be rerouted out that same interfaces.This is common occurrence in hub and spoke, remote access VPN topologies.
+
+Split tunnel VPN
+	A split tunnel describe a VPN connection where corporate resources are delivered through the VPN, but general internet traffic is routed directly to the internet from local interface and doesn't cross the VPN.
+
+  

@@ -1,0 +1,57 @@
+IPSec
+
+As we all know that IP wasn't designed with security in mind. So, IPSec is suite of protocolsused to manage encrypt communication tunnels to provide CIA triad. It is an open standard that is a part of IPv4 and operated at layer 3.
+
+Provide mutual authentication, ensuring both clients and server authenticate each other.
+
+For encryption it uses :- DES, 3DES or AES. Meanwhile to maintain integrity it uses Hashing algorithm like MD5 or SHA
+for authentication algorithm such as RSA, ECDSA or a pre-shared key to verify the information sender. 
+
+Talking about the component of IPSec there are :- 
+
+Authenticate Header, Encapsulating Security Payload, Security Associations
+
+Authenticate Header : 
+	it acts as a digital signature for data to ensure the header and payload have ont been changed since transmission to maitain integrity.
+	it provides authentication it uses algorithm like HMAC-sha.
+
+Notes Authentication header doesn't provides confidentiality as it doesn't encrypt the header. so we use
+
+Encapsulating Security Payload.
+Operated directly on top of IP, and fullfill all CIA Triad. 
+
+
+Security Associations
+
+it is established using Internet security association and key management protocol (ISAKMP) 
+
+
+Internet Key Exchange (IKE)
+
+It is used to setup a SA in the IPSec protocol suite. It creates a VPN tunnel and manages the keys used to encrypt and decrypt data and information. Internet Key Exchange operates at two phase, 
+	Phase 1) Establish a secure, authenticated channel using either Main mode or aggressive mode
+		 To add on phase 1, here the sites will identify each other and negotiate parameters for authentication and encryption 
+	Phase 2) Negotiates IPsec SAs and generates encryption keys for data protection using Quick mode. 
+
+Meanwhile Authenticate Header and Encapsulating Security Payload can be implemented in Transport mode or tunnel model.
+
+1) Tunnel Mode 
+	This is a default mode in IPSec mode. Here the entire IP packet gets encrypted and authenticated and encapsulated into a new IP header. 
+
+2) Transport Mode 
+	This mode is used to authenticate for end-to-end communication to protect data send between two hosts on same netwrok. Only he payload of the IP packet is encrypted or authenticated.The Ip header remains intact.
+
+NOTE 
+
+Pan OS implements Site-to-Site IPSec VPN as a routed VPN tunnel and doesn't use policy based model.
+Routed VPN tunnel - which routes all traffic that enters a VPN interface whereas,
+Policy based VPN - requires a policy to decide if traffic should be routed over the VPN 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+Global Protect
+
+it is branding used to consolidate Palo Alto's VPN offerings and more. Global protect automatically determines the closest gateway to the client and establishes secure connections.
+
+ 
+Global protect has three main components:
+
+The GlobalProtect portal 
+Global protect gateways
+Global protect Client software
+
+
+Global Protect portal
+	which helps to manage functions for GlobalProtect infrastructure 
+
+Global protect gateway
+	Provide security enforcement for traffic from gloablprotect agents and apps
+
+Gloabl protect client
+	runs on users devices and enables access to globalprotect infrastructure
+
+
+The portal may provide an IP address or DNS hostname to the client that allows the client to determine if it is on an internal or external network.	
+
+the client will perform reverse DNS lookup on the provided IP address looking for the DNS hostname and the DNS hostname should only be resolved using internal DNS server. 
+
+	if a response is received, the client will connect to an internal gateway.
+	if a response is not received, the client will be connect to the external gateway.
+
+Clientless VPN
+
+It provides secure access to enterprise web application without exposing them to the general internet.
+
+Globalprotect Supports three types of connection method
+
+On-Demand, User-login, Pre-logon 
