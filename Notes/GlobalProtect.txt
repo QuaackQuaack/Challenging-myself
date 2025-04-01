@@ -34,3 +34,15 @@ It provides secure access to enterprise web application without exposing them to
 Globalprotect Supports three types of connection method
 
 On-Demand, User-login, Pre-logon 
+
+
+On-Demand = The user chooses when to establish a connection.
+User-login = Automatically establish connection after user login. Single Sign-on (SSO) uses the Windows Credentials to connect to the portal.;
+Pre-Logon = Establish connection before user login by means of machine certificates.
+
+GloablProtect gateway is to provide an endpoint for an agent's connection. 
+Now here we talk about external and internal gateway. In internal gateway we don't require a tunnel but maybe configured to use one. Incase of external gateway, we do need gateway to protect user traffic.
+
+When user logs into GlobalProtect Agent app, this login information is added the User-ID mapping table for visibility and security policy enforcement.
+
+ 
