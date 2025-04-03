@@ -21,3 +21,8 @@
 **Day 5**
 - * Today I learned about configuration of CUCM with Cisco Unity Connection. We already had our CUCM ip and CUC on VxRail in our lab but we need to connect out device and phone to the Swtich and get IP address and be able to configure CUCM server. Not only that, I learn how to manually configure 3 IP phones in the suit ( type 7821, type 8945  and third party SIP phone ie 3cx). With the help of CUCM interface, we create interface for devices, register DN, also setup call forwading with voice mail.
 
+
+** Day 6**
+- * Although being busy day, Today I learned about global protect client and how to setup, I went through my lab file and learn how to investigate, the operation of site-site and remote access VPN. Tomorrow I will make a note of it and upload on my github. Thank you
+
+
